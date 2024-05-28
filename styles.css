@@ -44,6 +44,7 @@ header h1 {
     margin-left: 8rem;
     margin-right: 8rem;
     display: flex;    
+    padding-top: 2rem;
 }
 
 .about-me-info-container {
@@ -68,9 +69,30 @@ header h1 {
     
 }
 
+.project-details {
+    display: none;
+}
+
+.project-title {
+    cursor: pointer;
+}
+
+.project-title:hover {
+    color: darkblue;
+}
+
+#teacozypic {
+    width: 400px;
+}
+
+#dasmotospic {
+    width: 400px;
+}
+
 #skills {
     margin-left: 8rem;
     margin-right: 8rem;
+    padding-top: 2rem;
     
 }
 
@@ -91,6 +113,9 @@ header h1 {
     margin-left: -20px;
 }
 
+#logo-5 {
+    margin-left: 20px;
+}
 footer p {
     justify-content: center;
     width: 100%;
