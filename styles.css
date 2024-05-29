@@ -18,7 +18,7 @@ header h1 {
     padding: 10px;
     justify-content: space-between;
     display: flex;
-    width: 33rem; 
+    width: 40rem; 
 }
 
 .navbar a {
@@ -40,7 +40,7 @@ header h1 {
     width: 100%;
 }
 
-#about-me {
+#about {
     margin-left: 8rem;
     margin-right: 8rem;
     display: flex;    
@@ -60,8 +60,12 @@ header h1 {
 .justin-image {
     width: 23rem;
     height: 20rem;
-
 }
+
+.justin-image.clicked {
+    transform: scale(1.2);
+}
+
 #projects {
     margin-left: 8rem;
     margin-right: 8rem;
@@ -102,6 +106,7 @@ header h1 {
     justify-content: space-evenly;
 }
 
+
 .logo {
     height: 100px;
 }
@@ -121,4 +126,29 @@ footer p {
     width: 100%;
     display: flex;
     padding-top: 1rem;
+}
+
+#contact {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+#logo1 {
+    width: 3rem;
+    height: 3rem;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+}
+
+#logo2 {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding-top: 0.75rem;
+}
+#logo3 {
+    width: 6rem;
+}
+
+#contact-logo-container {
+    display: flex; 
 }
